@@ -12,7 +12,7 @@ jobs:
               with:
                   ssh_key: ${{ secrets.SSH_KEY }}
                   access_token: ${{ secrets.ACCESS_TOKEN }}
-                  sot_repo: zubeyir/sot_repo
+                  sot_repo: zubeyiro/sot_repo
                   destination_repo: zubeyiro/targ_repo
                   pr_include: '**'
                   push_include: 'apps/docs/**'
